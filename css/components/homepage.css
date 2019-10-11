@@ -30,6 +30,7 @@ body{
 	display: grid;
 	grid-template-columns: 270px 270px 270px;
 	grid-template-rows: 200px;
+	margin-right: 10%;
 }
 .card{
 	width: 192px;
