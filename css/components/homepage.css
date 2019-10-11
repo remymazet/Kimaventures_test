@@ -6,7 +6,7 @@ body{
     position: relative;
 	align-items: center;
 }.content{
-	margin-top: 10%;
+	margin-top: 5%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
@@ -28,7 +28,7 @@ body{
 }
 .content-2{
 	display: grid;
-	grid-template-columns: 270px 270px 270px;
+	grid-template-columns: 270px 270px;
 	grid-template-rows: 200px;
 	margin-right: 10%;
 }
@@ -67,11 +67,6 @@ body{
 	}
 	.content-2{
 		margin: auto;
-	}
-}
-@media (max-width: 860px) {
-	.content-2{
-	grid-template-columns: 270px 270px;
 	}
 }
 @media (max-width: 565px) {
